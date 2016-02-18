@@ -9,10 +9,20 @@
 /* Begin PBXBuildFile section */
 		04099FBD1C6B4019007F56DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04099FBC1C6B4019007F56DE /* main.m */; };
 		04099FC01C6B4019007F56DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04099FBF1C6B4019007F56DE /* AppDelegate.m */; };
-		04099FC31C6B4019007F56DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04099FC21C6B4019007F56DE /* ViewController.m */; };
-		04099FC61C6B4019007F56DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04099FC41C6B4019007F56DE /* Main.storyboard */; };
 		04099FC81C6B4019007F56DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04099FC71C6B4019007F56DE /* Assets.xcassets */; };
 		04099FCB1C6B4019007F56DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04099FC91C6B4019007F56DE /* LaunchScreen.storyboard */; };
+		040B1BDC1C6F046B000893B3 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 040B1BDB1C6F046B000893B3 /* libsqlite3.0.tbd */; };
+		040B1BDF1C6F09FD000893B3 /* FMDBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 040B1BDE1C6F09FD000893B3 /* FMDBTool.m */; };
+		0492DAE71C6B9B1300E7D9E7 /* AddIssuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0492DAE61C6B9B1300E7D9E7 /* AddIssuesViewController.m */; };
+		04D5690E1C6C23B300979503 /* IssuessDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D5690D1C6C23B300979503 /* IssuessDetailViewController.m */; };
+		04D569121C6C253400979503 /* UILabel+ANewLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D569111C6C253400979503 /* UILabel+ANewLabel.m */; };
+		04DF16091C75B3CA008D5077 /* CalendarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF16081C75B3CA008D5077 /* CalendarTool.m */; };
+		04DF160C1C75B4F4008D5077 /* DatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF160B1C75B4F4008D5077 /* DatePickerView.m */; };
+		04ED50F31C6B8C5100E43297 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED50F11C6B8C5100E43297 /* MainViewController.m */; };
+		04ED50F91C6B91C600E43297 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED50F81C6B91C600E43297 /* TabBarController.m */; };
+		04EDD6AB1C6C945000B3BBDF /* IssuesDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EDD6AA1C6C945000B3BBDF /* IssuesDetail.m */; };
+		04EDD6AE1C6C9EB800B3BBDF /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EDD6AD1C6C9EB800B3BBDF /* DataManager.m */; };
+		175E9F409B9537D8FD75A69D /* libPods-ToDoList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D22DDFA514708FACA0ECE68 /* libPods-ToDoList.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +30,34 @@
 		04099FBC1C6B4019007F56DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04099FBE1C6B4019007F56DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04099FBF1C6B4019007F56DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04099FC11C6B4019007F56DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04099FC21C6B4019007F56DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04099FC51C6B4019007F56DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04099FC71C6B4019007F56DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04099FC71C6B4019007F56DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		04099FCA1C6B4019007F56DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04099FCC1C6B4019007F56DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040B1BDB1C6F046B000893B3 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		040B1BDD1C6F09FD000893B3 /* FMDBTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBTool.h; sourceTree = "<group>"; };
+		040B1BDE1C6F09FD000893B3 /* FMDBTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBTool.m; sourceTree = "<group>"; };
+		0492DAE41C6B988800E7D9E7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0492DAE51C6B9B1300E7D9E7 /* AddIssuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddIssuesViewController.h; sourceTree = "<group>"; };
+		0492DAE61C6B9B1300E7D9E7 /* AddIssuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddIssuesViewController.m; sourceTree = "<group>"; };
+		04D5690C1C6C23B300979503 /* IssuessDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssuessDetailViewController.h; sourceTree = "<group>"; };
+		04D5690D1C6C23B300979503 /* IssuessDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssuessDetailViewController.m; sourceTree = "<group>"; };
+		04D569101C6C253400979503 /* UILabel+ANewLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ANewLabel.h"; sourceTree = "<group>"; };
+		04D569111C6C253400979503 /* UILabel+ANewLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ANewLabel.m"; sourceTree = "<group>"; };
+		04DF16071C75B3CA008D5077 /* CalendarTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarTool.h; sourceTree = "<group>"; };
+		04DF16081C75B3CA008D5077 /* CalendarTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarTool.m; sourceTree = "<group>"; };
+		04DF160A1C75B4F4008D5077 /* DatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerView.h; sourceTree = "<group>"; };
+		04DF160B1C75B4F4008D5077 /* DatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerView.m; sourceTree = "<group>"; };
+		04ED50F01C6B8C5100E43297 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		04ED50F11C6B8C5100E43297 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		04ED50F71C6B91C600E43297 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		04ED50F81C6B91C600E43297 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		04EDD6A91C6C945000B3BBDF /* IssuesDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssuesDetail.h; sourceTree = "<group>"; };
+		04EDD6AA1C6C945000B3BBDF /* IssuesDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssuesDetail.m; sourceTree = "<group>"; };
+		04EDD6AC1C6C9EB800B3BBDF /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		04EDD6AD1C6C9EB800B3BBDF /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		3BEF74423A6E8F77D7F3FFD2 /* Pods-ToDoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToDoList/Pods-ToDoList.debug.xcconfig"; sourceTree = "<group>"; };
+		4D22DDFA514708FACA0ECE68 /* libPods-ToDoList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ToDoList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A5D16B5E0C98B0935EB300 /* Pods-ToDoList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToDoList/Pods-ToDoList.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040B1BDC1C6F046B000893B3 /* libsqlite3.0.tbd in Frameworks */,
+				175E9F409B9537D8FD75A69D /* libPods-ToDoList.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +78,8 @@
 			children = (
 				04099FBA1C6B4019007F56DE /* ToDoList */,
 				04099FB91C6B4019007F56DE /* Products */,
+				BCEA1F021E3D6A45E157CE54 /* Pods */,
+				4EEB043C84786A4502309984 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,12 +96,12 @@
 			children = (
 				04099FBE1C6B4019007F56DE /* AppDelegate.h */,
 				04099FBF1C6B4019007F56DE /* AppDelegate.m */,
-				04099FC11C6B4019007F56DE /* ViewController.h */,
-				04099FC21C6B4019007F56DE /* ViewController.m */,
-				04099FC41C6B4019007F56DE /* Main.storyboard */,
-				04099FC71C6B4019007F56DE /* Assets.xcassets */,
-				04099FC91C6B4019007F56DE /* LaunchScreen.storyboard */,
-				04099FCC1C6B4019007F56DE /* Info.plist */,
+				04D5690F1C6C251200979503 /* Tool */,
+				04ED50EC1C6B8C5100E43297 /* Manager */,
+				04ED50ED1C6B8C5100E43297 /* Model */,
+				04ED50EE1C6B8C5100E43297 /* Resources */,
+				04ED50EF1C6B8C5100E43297 /* ViewControllers */,
+				04ED50F21C6B8C5100E43297 /* Views */,
 				04099FBB1C6B4019007F56DE /* Supporting Files */,
 			);
 			path = ToDoList;
@@ -74,9 +110,93 @@
 		04099FBB1C6B4019007F56DE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04099FC91C6B4019007F56DE /* LaunchScreen.storyboard */,
 				04099FBC1C6B4019007F56DE /* main.m */,
+				04099FCC1C6B4019007F56DE /* Info.plist */,
+				0492DAE41C6B988800E7D9E7 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04D5690F1C6C251200979503 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				04D569101C6C253400979503 /* UILabel+ANewLabel.h */,
+				04D569111C6C253400979503 /* UILabel+ANewLabel.m */,
+				040B1BDD1C6F09FD000893B3 /* FMDBTool.h */,
+				040B1BDE1C6F09FD000893B3 /* FMDBTool.m */,
+				04DF16071C75B3CA008D5077 /* CalendarTool.h */,
+				04DF16081C75B3CA008D5077 /* CalendarTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		04ED50EC1C6B8C5100E43297 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				04EDD6AC1C6C9EB800B3BBDF /* DataManager.h */,
+				04EDD6AD1C6C9EB800B3BBDF /* DataManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		04ED50ED1C6B8C5100E43297 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04EDD6A91C6C945000B3BBDF /* IssuesDetail.h */,
+				04EDD6AA1C6C945000B3BBDF /* IssuesDetail.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04ED50EE1C6B8C5100E43297 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04099FC71C6B4019007F56DE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04ED50EF1C6B8C5100E43297 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04ED50F01C6B8C5100E43297 /* MainViewController.h */,
+				04ED50F11C6B8C5100E43297 /* MainViewController.m */,
+				0492DAE51C6B9B1300E7D9E7 /* AddIssuesViewController.h */,
+				0492DAE61C6B9B1300E7D9E7 /* AddIssuesViewController.m */,
+				04D5690C1C6C23B300979503 /* IssuessDetailViewController.h */,
+				04D5690D1C6C23B300979503 /* IssuessDetailViewController.m */,
+				04ED50F71C6B91C600E43297 /* TabBarController.h */,
+				04ED50F81C6B91C600E43297 /* TabBarController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04ED50F21C6B8C5100E43297 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04DF160A1C75B4F4008D5077 /* DatePickerView.h */,
+				04DF160B1C75B4F4008D5077 /* DatePickerView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4EEB043C84786A4502309984 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040B1BDB1C6F046B000893B3 /* libsqlite3.0.tbd */,
+				4D22DDFA514708FACA0ECE68 /* libPods-ToDoList.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCEA1F021E3D6A45E157CE54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BEF74423A6E8F77D7F3FFD2 /* Pods-ToDoList.debug.xcconfig */,
+				D6A5D16B5E0C98B0935EB300 /* Pods-ToDoList.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04099FCF1C6B4019007F56DE /* Build configuration list for PBXNativeTarget "ToDoList" */;
 			buildPhases = (
+				3EA6FDEEE1CAD6EBFA0FFCD9 /* Check Pods Manifest.lock */,
 				04099FB41C6B4019007F56DE /* Sources */,
 				04099FB51C6B4019007F56DE /* Frameworks */,
 				04099FB61C6B4019007F56DE /* Resources */,
+				1A4924DBF3D52F239D21DF8E /* Embed Pods Frameworks */,
+				52E0748AB72E70BF29D1ADF6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,34 +261,82 @@
 			files = (
 				04099FCB1C6B4019007F56DE /* LaunchScreen.storyboard in Resources */,
 				04099FC81C6B4019007F56DE /* Assets.xcassets in Resources */,
-				04099FC61C6B4019007F56DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A4924DBF3D52F239D21DF8E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToDoList/Pods-ToDoList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EA6FDEEE1CAD6EBFA0FFCD9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		52E0748AB72E70BF29D1ADF6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToDoList/Pods-ToDoList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04099FB41C6B4019007F56DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04099FC31C6B4019007F56DE /* ViewController.m in Sources */,
+				04EDD6AB1C6C945000B3BBDF /* IssuesDetail.m in Sources */,
+				04DF16091C75B3CA008D5077 /* CalendarTool.m in Sources */,
+				04DF160C1C75B4F4008D5077 /* DatePickerView.m in Sources */,
 				04099FC01C6B4019007F56DE /* AppDelegate.m in Sources */,
+				04D5690E1C6C23B300979503 /* IssuessDetailViewController.m in Sources */,
+				04ED50F91C6B91C600E43297 /* TabBarController.m in Sources */,
 				04099FBD1C6B4019007F56DE /* main.m in Sources */,
+				04ED50F31C6B8C5100E43297 /* MainViewController.m in Sources */,
+				040B1BDF1C6F09FD000893B3 /* FMDBTool.m in Sources */,
+				04D569121C6C253400979503 /* UILabel+ANewLabel.m in Sources */,
+				04EDD6AE1C6C9EB800B3BBDF /* DataManager.m in Sources */,
+				0492DAE71C6B9B1300E7D9E7 /* AddIssuesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		04099FC41C6B4019007F56DE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04099FC51C6B4019007F56DE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04099FC91C6B4019007F56DE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -261,8 +432,10 @@
 		};
 		04099FD01C6B4019007F56DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BEF74423A6E8F77D7F3FFD2 /* Pods-ToDoList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = ToDoList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.Jack.ToDoList;
@@ -272,8 +445,10 @@
 		};
 		04099FD11C6B4019007F56DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A5D16B5E0C98B0935EB300 /* Pods-ToDoList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = ToDoList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.Jack.ToDoList;
@@ -300,6 +475,7 @@
 				04099FD11C6B4019007F56DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
